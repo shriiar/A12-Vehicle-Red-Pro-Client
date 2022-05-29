@@ -1,0 +1,120 @@
+.page-add {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  @media (max-width: 767px) {
+    .page-add {
+      height: auto;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+    }
+  }
+  .container-add {
+    display: flex;
+    height: 320px;
+    margin: 0 auto;
+    width: 65%;
+  }
+  @media (max-width: 767px) {
+    .container-add {
+      flex-direction: column;
+      height: 630px;
+      width: 320px;
+    }
+  }
+  .left-add {
+    background: #fff5f5;
+    height: calc(100% - 40px);
+    top: 50px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 100px;
+    border-radius: 15px;
+  }
+  @media (max-width: 767px) {
+    .left-add {
+      margin-bottom: 100px;
+      height: 100%;
+      left: 20px;
+      width: calc(100% - 40px);
+      max-height: 270px;
+    }
+  }
+  .login {
+    font-size: 50px;
+    font-weight: 900;
+    margin: 50px 40px 40px;
+    color: #ff8c90;
+  }
+  .eula {
+    color: #999;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 40px;
+  }
+  .right-add {
+    background: #fff5f5;
+    box-shadow: 0px 0px 40px 16px rgba(0, 0, 0, 0.22);
+    color: #f1f1f2;
+    position: relative;
+    width: 1200px;
+    top: 110px;
+    height: 1200px !important;
+    border-radius: 15px;
+    margin-bottom: 100px !important;
+  }
+  @media (max-width: 767px) {
+    .right-add {
+      flex-shrink: 0;
+      height: 1050px !important;
+      width: 100%;
+      margin-top: 100px;
+    }
+  }
+  svg {
+    position: absolute;
+    width: 320px;
+  }
+  path {
+    fill: none;
+    stroke: url(#linearGradient);
+    stroke-width: 4;
+    stroke-dasharray: 240 1386;
+  }
+  .form {
+    margin: 40px;
+    position: absolute;
+  }
+  label {
+    color: #c2c2c5;
+    display: block;
+    font-size: 14px;
+    height: 16px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  input {
+    background: transparent;
+    border: 0;
+    color: #f2f2f2;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    outline: none !important;
+    width: 100%;
+  }
+  input::-moz-focus-inner {
+    border: 0;
+  }
+  #submit {
+    /* color: #707075; */
+    margin-top: 40px;
+    transition: color 300ms;
+  }
+  #submit:focus {
+    color: #f2f2f2;
+  }
+  #submit:active {
+    color: #d0d0d2;
+  }
